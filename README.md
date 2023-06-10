@@ -7,5 +7,25 @@ Brain Tumor Detection is a project that focuses on the identification and classi
 
 
 
-## Output accuracy
+
+
+## Outputs:-
+### Deep Learning:- Best Architecture = Inception V3
+#### VGG 16
+accuracy: 0.9317
+![download](https://github.com/premanshsharma/Brain-Tumor-Detection/assets/71265310/5e633651-3dab-4e6c-8272-116f67b266e8)
+
+#### VGG 19
+accuracy: 0.9516666531562805
+![download](https://github.com/premanshsharma/Brain-Tumor-Detection/assets/71265310/67b2e339-f026-43d7-a65e-1111ee4da09d)
+
+#### Inception V3
+accuracy: 0.9733333587646484![download](https://github.com/premanshsharma/Brain-Tumor-Detection/assets/71265310/d2dc8011-dc36-46eb-a09c-d443e7fd45f6)
+
+Combined Training and Validation accuracy of above 3 architectures
+![download](https://github.com/premanshsharma/Brain-Tumor-Detection/assets/71265310/df807b58-4c5c-49fb-9cae-a024cf190a15)
+
+
+### Machine Learning:- Best Algorithm = Logistic Regression with solver as lbfds give an accuracy of 95.26666667
+Combined outputs of all machine learning algorithms
 ![image](https://github.com/premanshsharma/Brain-Tumor-Detection/assets/71265310/ebb5a5ea-2443-42d6-9a0e-97cf09c65dff)
