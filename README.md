@@ -2,15 +2,30 @@
 
 Link of dataset:- https://www.kaggle.com/datasets/ahmedhamada0/brain-tumor-detection
 
-Link of jupyter notebook containing code and outputs:- https://github.com/premanshsharma/Brain-Tumor-Detection/blob/main/Brain_Tumor_Detection_Latest.ipynb
+Link of jupyter notebook containing code and outputs of implementation of ml and dl:- https://github.com/premanshsharma/Brain-Tumor-Detection/blob/main/Brain_Tumor_Detection_Latest.ipynb
+Link of jupyter notebook containing code and outputs of image processing functions:- 
+https://github.com/premanshsharma/Brain-Tumor-Detection/blob/main/BrainTumorPreImgProcessing.ipynb
 ## Overview
 Brain Tumor Detection is a project that focuses on the identification and classification of brain tumors using image processing and machine learning techniques. It utilizes a combination of image resizing, feature extraction algorithms (HoG, SIFT, ORB), thresholding, connected component analysis, and PCA for dimensionality reduction. The project employs a variety of machine learning algorithms including Support Vector Machines (SVM) with different kernel functions (linear, poly, sigmoid), Gaussian Naive Bayes, Logistic Regression with various solvers (lbfgs, liblinear, newton-cg), and k-Nearest Neighbors (KNN) with k values ranging from 1 to 5. Additionally, deep learning architectures such as VGG16, VGG19, and Inception V3 are used to enhance the detection accuracy. The performance of the machine learning algorithms is evaluated using k-fold cross-validation with k set to 3, ensuring reliable and robust model assessment.
 
+## Image Feature Extraction Outputs
+Normal image containing tumor
+![image](https://github.com/premanshsharma/Brain-Tumor-Detection/assets/71265310/82e57b53-89c0-44db-a643-87d713a19f6c)
+HOG Image
+![image](https://github.com/premanshsharma/Brain-Tumor-Detection/assets/71265310/5482a058-d3fa-4eff-ac42-702aa1d64259)
+SIFT Image
+![image](https://github.com/premanshsharma/Brain-Tumor-Detection/assets/71265310/5a8a7e67-4284-43ba-b344-a1f274a13031)
+ORB Image
+![image](https://github.com/premanshsharma/Brain-Tumor-Detection/assets/71265310/586920af-f1aa-45ab-bf70-befea97847f7)
+Image after Thresholding
+![image](https://github.com/premanshsharma/Brain-Tumor-Detection/assets/71265310/e6f10e5f-68d1-4b54-bfbf-18578d00ea13)
+Connected Component Analysis
+![image](https://github.com/premanshsharma/Brain-Tumor-Detection/assets/71265310/079a28fa-c14b-43a6-b338-007ed707b3ac)
+Image after PCA
+![image](https://github.com/premanshsharma/Brain-Tumor-Detection/assets/71265310/92cfb34b-4047-4e1d-a489-7fcacb26ff75)
 
 
-
-
-## Outputs:-
+## Machine learning and Deep Learning algorithm Outputs:-
 ### Deep Learning:- Best Architecture = Inception V3 with an accuracy of 0.9733333587646484
 #### VGG 16
 accuracy: 0.9317
