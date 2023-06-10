@@ -8,4 +8,4 @@ Brain Tumor Detection is a project that focuses on the identification and classi
 
 
 ## Output accuracy
-![image](https://github.com/premanshsharma/Brain-Tumor-Detection/assets/71265310/7fd18731-5e6e-468f-927c-c1e7b4ac70fb)
+![image](https://github.com/premanshsharma/Brain-Tumor-Detection/assets/71265310/ebb5a5ea-2443-42d6-9a0e-97cf09c65dff)
